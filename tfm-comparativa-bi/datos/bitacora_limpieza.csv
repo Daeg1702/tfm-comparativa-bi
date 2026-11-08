@@ -1,0 +1,9 @@
+paso,filas_antes,filas_eliminadas,filas_despues,motivo
+0. Dataset original (2 hojas unidas),1067371,0,1067371,Punto de partida
+1. Duplicados exactos,1067371,34335,1033036,Fila idéntica a otra ya existente
+2. Cancelaciones,1033036,19104,1013932,Factura cancelada (Invoice empieza con 'C')
+3. Quantity <= 0 (no cancelación),1013932,3393,1010539,"Ajuste de inventario, no es una venta"
+4. Price <= 0,1010539,2626,1007913,Precio cero o negativo: ajuste contable o muestra sin valor
+5. Ventas anuladas posteriormente,1007913,2,1007911,Venta anulada por completo después (541431 por C541433; 581483 por C581484)
+6. Códigos que no son productos,1007911,4573,1003338,"Portes, ajustes, comisiones, descuentos, muestras, pruebas y vales regalo"
+7. Customer ID nulo,1003338,0,1003338,"Se mantienen 226,761 filas (ventas reales sin cliente identificado)"

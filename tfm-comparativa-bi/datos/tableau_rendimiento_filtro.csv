@@ -1,0 +1,17 @@
+﻿Start Index,Event,Elapsed Time,Command,Command Name,Event Name,Dashboard,Data Source Name,Worksheet,Elapsed Time
+4977,Rendering,0.0839631,,,RenderActive, ,,,0.0839631
+5023,Rendering,0.040922,,,RenderActive, ,,,0.040922
+5222,Rendering,0.0259336,,,RenderActive, ,,,0.0259336
+11042,Rendering,0.0209834,,,RenderActive, ,,,0.0209834
+5140,Rendering,0.0160607,,,RenderActive, ,,,0.0160607
+5062,Rendering,0.0160214,,,RenderActive, ,,,0.0160214
+5189,Rendering,0.0158424,,,RenderActive, ,,,0.0158424
+4139,Computing Layout,0.0157746,,tabdoc:categorical-filter,visual-model-producer.produce-visual-model, ,,VENTAS POR MES,0.0157746
+5125,Rendering,0.0151983,,,RenderActive, ,,,0.0151983
+5092,Rendering,0.0146947,,,RenderActive, ,,,0.0146947
+2834,Computing Layout,0.0142361,,tabdoc:categorical-filter,visual-model-producer.produce-visual-model, ,,MAPA DE VENTAS,0.0142361
+1750,Executing Query,0.0120641,,tabdoc:categorical-filter,query-batch.process, ,,,0.0120641
+2203,Computing Layout,0.0115183,,tabdoc:categorical-filter,visual-model-producer.produce-visual-model, ,,KPI,0.0115183
+8254,Executing Query,0.0111962,,tabdoc:change-membership-from-existing-model,query-batch.process, ,,KPI,0.0111962
+11052,Rendering,0.010708,,,RenderActive, ,,,0.010708
+5630,Executing Query,0.010503,,tabdoc:change-membership-from-existing-model,query-batch.process, ,,KPI,0.010503
